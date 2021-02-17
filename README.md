@@ -15,14 +15,14 @@ Systém je vytvorený pre PostgreSQL databázu a obsahuje **CREATE SCRIPT** a **
 
 ## Setup
 Stiahnutie obsahu repozitára:
-'''
+```
 https://github.com/ipinfil/idbs.git
-'''
+```
 
 Pre správne fungovanie aplikácie je potrebné mať k dispozícii JDBC driver pre PostgreSQL systém. Konkrétne sa použila verzia
-'''
+```
 postgresql-42.2.11.jar
-'''
+```
 
 Následne je potrebné vložiť do [a relative link](src/main/Main.java) údaje na pripojenie k databáze.
 
