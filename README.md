@@ -2,7 +2,7 @@
 Back-end systém vytvorený v jazyku JAVA, databázovým systémom PostgreSQL a PL/pgSQL.
 
 ## O projekte
-V repozitári sa nachádza dokument [a relative link](sprava.pdf), kde sa nachádza:
+V repozitári sa nachádza dokument [sprava.pdf](sprava.pdf), kde sa nachádza:
 * UML diagram dátového modelu
 * popis entít 
 * relačný model dát tabuliek v databáze
@@ -24,6 +24,6 @@ Pre správne fungovanie aplikácie je potrebné mať k dispozícii JDBC driver p
 postgresql-42.2.11.jar
 ```
 
-Následne je potrebné vložiť do [a relative link](src/main/Main.java) údaje na pripojenie k databáze.
+Následne je potrebné vložiť do [Main.java](src/main/Main.java) údaje na pripojenie k databáze.
 
-Po správnej konfigurácií môžete spustiť [a relative link](src/main/Main.java), v konzole sa vypíše menu, pomocou ktorého sa systém obsluhuje. Voľbou **X** sa inicializuje databáza s dátami.
+Po správnej konfigurácií môžete spustiť [Main.java](src/main/Main.java), v konzole sa vypíše menu, pomocou ktorého sa systém obsluhuje. Voľbou **X** sa inicializuje databáza s dátami.
